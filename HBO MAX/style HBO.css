@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.body, .navbar, .text, .contenedor, .got, .euph, .rick, .ajustes {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+	background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(34,5,83,1) 40%, rgba(123,36,162,1) 100%);
+}
+
+header{
+	background-color: rgb(0,0,0,0.5) ;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: flex-start;
+	display: flex;
+    align-items: flex-start;
+}
+
+.navbar a {
+	color: #E9E9E9;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	justify-content: space-between;
+}
+
+nav ul li {
+	margin-bottom: -25px;
+	padding: 20px;
+}
+
+nav ul li a {
+	display: flex;
+	flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+	font-size: 20px;
+}
+
+.usuario img {
+	position: absolute;
+	width: 30px;
+	right: 35px;
+	;
+}
+
+.buscar	img {
+	position: absolute;
+	width: 30px;
+	right: 90px;
+}
+
+.logo img { 
+	margin-right: 20px;
+    width: 70px;
+	margin-top: -5px;
+}
+
+.text p {
+	padding: 25px;
+	margin-top: 30px;
+	margin-bottom: -25px;
+	color: #E6E1E1;
+}
+
+.contenedor {
+	padding: 1px;
+	max-width: 100%;
+	position: relative;
+	display: flex;
+	margin-bottom: -35px;
+}
+
+.contenedor img {
+	width: 18.5%;
+	height: auto;
+	padding: 2px;
+	margin-bottom: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	align-content: center;
+	
+}
+.navbar a:hover{
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+
+.navbar img:hover{
+	filter: brightness(0) invert(1);
+}
+
+.got {
+	position: absolute;
+	width: 52%;
+	padding-right: -5px;
+	top: -5em;
+	left: -7em;
+}
+
+.got p {
+	text-align: left;
+	left: 0;
+	position: absolute;
+}
+
+.got h5 {
+	position: absolute;
+	text-align: left;
+	font-weight: bold;
+	top: -6em;
+
+}
+
+.euph {
+	position: absolute;
+	width: 65%;
+	left: 15em;
+}
+
+.euph p {
+	position: absolute;
+	text-align: left;
+	top: -10em;
+}
+
+.euph h5 {
+	position:absolute;
+	text-align: left;
+	top: -10em;
+	font-weight: bold;
+}
+
+.rick {
+	position:absolute;
+	width: 70%;
+	top: -24em;
+	left: -5em;
+}
+
+.rick p {
+	position: absolute;
+	text-align: left;
+	top: 2em;
+}
+
+.rick h5 {
+	position: absolute;
+	text-align: left;
+	font-weight: bold;
+}
+
+.text:hover {
+font-weight: bolder;
+}
+
+.contenedor img:hover {
+	border: 0.2em solid #6F1DBC;
+	filter: brightness(1.1);
+}
+
+footer {
+	padding: 30px;
+	max-width: 100%;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+    z-index: 1; /* Asegura que el pseudo-elemento esté encima del contenido del footer */
+	align-content: space-around; 
+	margin-top: 20px;
+}
+
+.redes {
+	filter: brightness(0) invert(0.8);
+	padding: 1em;
+}
+
+.tiktok {
+ padding: 4px;
+ width: 40px;
+ margin-top: 35px;
+}
+
+.ig {
+	padding: 4px;
+	width: 40px;
+	margin-top: 35px;
+}
+
+.twitter {
+	padding: 4px;
+	width: 40px;
+	margin-top: 35px;
+}
+.ajustes {
+  max-width: 100%;
+  position: absolute;
+  color: #AFAFAF;
+  right: 3%;
+  top: 350%;
+}
+
+.ajustes p:hover {
+	color: #FFFFFF;
+}
+
+@media (max-width:480px) {
+	.tendencias, .milista, .loqtegusta, .continuar {
+		width: 89%;
+	}
+	.carrusel {
+		margin-bottom: -20px;
+	}
+	.navbar {
+		width: 100%;
+	}
+	
+	.navbar a {
+		font-size: 13px;
+	}
+	
+	nav ul li {
+		padding: 10px;
+	}
+	
+	.nav ul li {
+		padding: 5px;
+	}
+	
+	.logo img {
+		width: 45px;
+		margin-right: 1px;
+	}
+	
+	.text {
+		font-size: 14px;
+		margin-left: -12px;
+	}
+	
+	.d-block img {
+		width: 20%;
+	}
+	
+	.ajustes p {
+		font-size: 15px;
+	}
+	
+	.ajustes {
+		rigth: -8%;
+		top: 113%;
+	}
+	
+	.buscar img {
+		width: 20px;
+		top: 30%;
+		right: 40px;
+	}
+	
+	.usuario img {
+		position: absolute;
+		width: 20px;
+		top: 30%;
+		right: 8px;
+	}
+
+	.euph, .rick, .got p {
+		position: absolute;
+		top: -200%;
+	}
+	
+	.contenedor img {
+		margin-right: 0.2em;
+	}
+	]
+
